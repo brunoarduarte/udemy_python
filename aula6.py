@@ -20,5 +20,7 @@ def get_person_attributes(name, age, heigth):
 
     return print(message + " " + majority)
 
+# É possível multiplicar um int por ponto flutuante
+print(idade * altura)
 
-get_person_attributes("Bruno", 9, 1.91)
+get_person_attributes(nome, idade, altura)
