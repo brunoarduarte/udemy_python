@@ -3,9 +3,6 @@
 # Deve separar com _
 # Letras minúsculas
 
-from curses.ascii import alt
-
-
 nome = "Bruno"
 idade = 39
 altura = 1.91
@@ -26,7 +23,8 @@ def get_person_attributes(name, age, heigth):
 
 
 def get_imc(heigth, weigth):
-    return round(weigth / (heigth * heigth), 2)
+    imc = weigth / (heigth * heigth)
+    return round(imc, 2)
 
 
 # É possível multiplicar um int por float. O resultado será um float
