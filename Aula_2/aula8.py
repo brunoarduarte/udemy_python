@@ -30,3 +30,5 @@ print(
   f"Você nasceu em {ano_nascimento}.\n"
   f"Seu IMC é {imc:.2f}"
 )
+
+print('2' + 1)
